@@ -84,6 +84,11 @@ div.carousel-item, img{
     display: flex;
 }
 
+figure img{
+    border-radius: 20px;
+    width: 100%;
+}
+
 @media screen and (min-width: 768px){
     div.carousel-item, img{
         width: 50vw;
@@ -95,6 +100,10 @@ div.carousel-item, img{
 
     .carousel-control-next, .carousel-control-next-icon{
         right: 20vw;
+    }
+
+    nav{
+        max-height: 150px;
     }
 
 }

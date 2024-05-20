@@ -6,6 +6,16 @@ body{
     background-image: linear-gradient(rgba(53, 255, 144, 0.6), rgba(116, 148, 234, 0.6), rgba(68, 204, 255, 0.6), rgba(53, 255, 144, 0.6));
     color: #000000;
     padding: 2%;
+    /* Properties for the sticky footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Sticky Footer */
+
+#container{
+    flex: 1;
 }
 
 a{
@@ -84,6 +94,10 @@ div.carousel-item, img{
     display: flex;
 }
 
+figure{
+    margin: 0 auto;
+}
+
 figure img{
     border-radius: 20px;
     width: 100%;
@@ -95,11 +109,11 @@ figure img{
     }
 
     .carousel-control-prev, .carousel-control-prev-icon{
-        left: 20vw;
+        left: 17vw;
     }
 
     .carousel-control-next, .carousel-control-next-icon{
-        right: 20vw;
+        right: 17vw;
     }
 
     nav{
